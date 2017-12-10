@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Dense-Regular;
+  src: url('fonts/Dense-Regular.otf') format('opentype');
+}
+
+html {
+  font-family: Dense-regular;
+}
+
+body {
+  background-color: rgb(246, 161, 14);
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  background-color: white;
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  font-weight: normal;
+}
+
+.header-text-large {
+  position: absolute;
+  font-size: 85px;
+  bottom: -6px;
+  left: 110px;
+}
+
+.header-text-medium {
+  position: absolute;
+  font-size: 45px;
+  bottom: 3px;
+  left: 228px;
+}
+
+.navbar {
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  margin-top: -1px;
+}
+
+.navlinkWrapper {
+  padding: 5px 0px 5px 110px;
+}
+
+.navlink {
+  margin-right: 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+
+.navlink.active {
+  border-bottom: 2px solid rgb(246, 161, 14);
+}
+
+.section {
+  width: 960px;
+  min-height: 800px;
+  margin: 10px auto;
+  padding: 10px 0;
+  background-color: white;
+}
+
+.calculator-section {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(235, 235, 235, 8);
+}
+
+.calculator {
+  display: flex;
+}
+
+.calculator > input {
+  margin-right: 2px;
+  padding: 4px;
+}
+
+.calculator > div {
+  line-height: 25px;
+  margin-right: 2px;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.image-section > img {
+  max-width: 400px;
+}
