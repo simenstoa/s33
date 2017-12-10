@@ -1,0 +1,14 @@
+{
+  "name": "s33",
+  "version": "1.0.0",
+  "description": "Hjemmeside for S33 Kjellerbryggeri",
+  "repository": {
+    "url": "https://github.com/simenstoa/S33-elm",
+    "type": "git"
+  },
+  "dependencies": {
+    "create-elm-app": "^1.10.0"
+  },
+  "author": "Simen Støa",
+  "license": "ISC"
+}
